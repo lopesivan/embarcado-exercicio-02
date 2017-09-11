@@ -21,6 +21,7 @@ int main (void)
 
     while (1)
     {
+        while ((PINB & BV (pb4)));
 
         if ((PINB & BV (pb4)) == 0)
         {
